@@ -1,8 +1,12 @@
 body {
   margin: 100px 0;
+  font-family: "Poppins", sans-serif;
 }
 h1 {
   font-size: 64px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
 }
