@@ -112,7 +112,10 @@ section.secondary {
 .card-footer {
   padding: 0 32px 32px 32px;
 }
-
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
 .btn {
   background-color: #195c96;
   color: #ffffff;
@@ -161,6 +164,11 @@ footer a {
 .grid-2-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.grid .grid-2-columns {
+  grid-gap: 0;
+  padding: 0;
 }
 
 .grid-3-columns {
@@ -225,8 +233,15 @@ li {
     padding: 20px;
     grid-gap: 3px;
   }
+  .grid .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+  .embed {
+    display: none;
+  }
   footer {
     font-size: 10px;
+    text-align: center;
   }
 
   footer h3 {
