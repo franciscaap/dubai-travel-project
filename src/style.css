@@ -53,6 +53,10 @@ header a {
 .responsive-image {
   width: 100%;
 }
+.responsive-video {
+  width: 100%;
+  aspect-ratio: 21 /9;
+}
 
 .text-center {
   text-align: center;
@@ -165,6 +169,12 @@ footer a {
   grid-gap: 70px;
 }
 
+.grid-1-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 50px 100px 100px;
+}
+
 .grid-2-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -246,6 +256,13 @@ li {
   .grid .grid-2-columns {
     grid-template-columns: 1fr;
   }
+
+  .grid-1-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 20px 40px;
+  }
+
   .embed {
     display: none;
   }
