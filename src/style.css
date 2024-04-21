@@ -177,7 +177,9 @@ footer a {
 
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px 100px 100px;
 }
+
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
